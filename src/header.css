@@ -1,0 +1,43 @@
+/*Fixed navigation bar*/
+.header{
+	z-index: 4;
+	position: fixed;
+	width: 411px;
+	height: 30px;
+	padding-bottom: 15px;
+	background-color: rgba(42, 120, 247, 0.5);
+}
+
+.header_holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.centertext{
+	position: absolute;
+	top: -16px;
+	width: 100%;
+}
+
+.menuitem{
+	display: inline-block;
+	width: 30px;
+}
+
+.menuitem_outer{
+	z-index: 10;
+	position: absolute;
+	float: left;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+

@@ -1,0 +1,52 @@
+/*Layout for each users message overview*/
+
+.messages_outer{
+	z-index: 3;
+	background-color: #fff;
+	position: relative;
+	width: 100%;
+	height: auto;
+	max-height: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #201f1f;
+}
+
+.messages_span_one{
+	width: 24%;
+	display: inline-block;
+}
+
+.messages_span_two{
+	width: 76%;
+	display: inline-block;
+}
+
+.thumbnail{
+	border-radius: 100%;
+	margin-left: 8px;
+	width: 74px;
+}
+
+/*User messages*/
+.user{
+display: block;
+font-family: 'Open Sans', sans-serif;
+}
+
+.user.name{
+font-weight: 700;
+font-size: 17px;
+padding-bottom: 4px;
+}
+
+.user.last_message{
+font-size: 16px;
+padding-bottom: 4px;
+}
+
+.user.last_sent{
+font-size: 13px;
+font-weight: 300;
+padding-bottom: 2px;
+}

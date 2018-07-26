@@ -1,0 +1,116 @@
+/*This stylesheet is for the animation of the main navigation items*/
+
+.nav_outer{
+	z-index: 2;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#212735+0,345f75+100 */
+	background: #212735; /* Old browsers */
+	background: -moz-linear-gradient(bottom,  #212735 0%, #345f75 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(bottom,  #212735 0%,#345f75 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to top,  #212735 0%,#345f75 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212735', endColorstr='#345f75',GradientType=0 ); /* IE6-9 */
+}
+
+.icon{
+	position: absolute;
+	left: -60px;
+}
+
+.icon.one{
+	top: 3%;
+	transition-duration: 1s;
+	transform: translateX(0);
+}
+
+ #open-menu.icon.one{
+	top: 3%;
+	transition-duration: 200ms;
+	transform: translateX(75px);
+	transition-delay: 50ms;
+}
+
+.icon.two{
+	top: 20%;
+	transition-duration: 1s;
+	transform: translateX(0);
+}
+
+ #open-menu.icon.two{
+	top: 20%;
+	transition-duration: 200ms;
+	transform: translateX(75px);
+	transition-delay: 150ms;
+}
+
+.icon.three{
+	top: 30%;
+	transition-duration: 1s;
+	transform: translateX(0);
+}
+
+ #open-menu.icon.three{
+	top: 30%;
+	transition-duration: 200ms;
+	transform: translateX(75px);
+	transition-delay: 200ms;
+}
+
+.icon.four{
+	top: 40%;
+	transition-duration: 1s;
+	transform: translateX(0);
+}
+
+ #open-menu.icon.four{
+	top: 40%;
+	transition-duration: 200ms;
+	transform: translateX(75px);
+	transition-delay: 250ms;
+}
+
+.icon.five{
+	top: 57%;
+	transition-duration: 1s;
+	transform: translateX(0);
+}
+
+ #open-menu.icon.five{
+	top: 57%;
+	transition-duration: 200ms;
+	transform: translateX(75px);
+	transition-delay: 350ms;
+}
+
+.you{
+	width: 55px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+}
+
+.person{
+	width: 55px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+}
+
+.favorite{
+	width: 55px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+}
+
+.new_message{
+	width: 55px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+}
+
+.settings{
+	width: 55px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+}
