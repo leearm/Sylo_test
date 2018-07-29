@@ -6,11 +6,11 @@ class Loading extends Component {
 	render(){
 		return(
 
-		// Display loading page
+		// Loading page with spinner
 		<div className="loadingouter">
 			<div className="loading">
-				<div class="cssload-container">
-					<div class="cssload-whirlpool"></div>
+				<div className="cssload-container">
+					<div className="cssload-whirlpool"></div>
 				</div>
 			</div>
 		</div>

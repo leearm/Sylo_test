@@ -12,7 +12,7 @@ import 'jquery-ui-bundle';
 import 'jquery-ui-bundle/jquery-ui.css';
 
 
-// Jquery UI used here to reszie the Root div without scrollbars
+// Jquery UI used here to re-szie the Root div without scrollbars
   $( function() {
     $( '#root' ).resizable();
   } );

@@ -11,6 +11,8 @@ import request from 'superagent';
 
 class App extends Component {
 
+
+    //Load data through JSON. there is a 1.5 second delay added also.
   componentDidMount() {
       setTimeout(() => {
           request.get('/users.json').then((data)=> {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './navigation.css';
 import {connect} from 'react-redux';
 import {mapStateToProps, mapActionsToProps} from './redux/helper';

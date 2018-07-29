@@ -12,7 +12,6 @@
   	left: 0;
 }
 
-
 .cssload-container{
 	position:relative;
 }
@@ -66,8 +65,6 @@
 		-webkit-animation: cssload-rotate 2300ms linear infinite;
 		-moz-animation: cssload-rotate 2300ms linear infinite;
 }
-
-
 
 @keyframes cssload-rotate {
 	100% {

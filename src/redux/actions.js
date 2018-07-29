@@ -4,7 +4,7 @@ export const toggleMenu = () => {
 	};
 };
 
-//Load data 
+//Load user data
 export const loadData = (data) => {
 	return {
 		type: 'LOAD_DATA',

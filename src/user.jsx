@@ -15,7 +15,7 @@ class User extends Component {
 
 	render(){
 		return(
-// Runs through data.js file to pull in the users data.
+// Loads user overview data
             this.props.users.map((user, i) => {
 				return (
 					<div key={`key-${i}`} className="messages_outer">
