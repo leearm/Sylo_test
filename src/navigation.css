@@ -15,6 +15,15 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212735', endColorstr='#345f75',GradientType=0 ); /* IE6-9 */
 }
 
+.nav_icons{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	min-height: 640px;
+	max-height: 900px;
+}
+
 .icon{
 	position: absolute;
 	left: -60px;

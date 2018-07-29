@@ -11,13 +11,7 @@ class Header extends Component {
 		this.props.toggleMenu();
 	}
 
-	componentWillReceiveProps(newProps) {
-		console.log(newProps);
-	}
-
 	render(){
-		console.log('Header,render', this.props);
-		
 		return(
 			<div className="header_holder">
 				<div className="header">

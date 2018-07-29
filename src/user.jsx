@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import data from './data'
 import './fonts.css';
 import './user.css';
 
@@ -17,17 +16,18 @@ class User extends Component {
 	render(){
 		return(
 // Runs through data.js file to pull in the users data.
-				data.map((user, i) => {
-
-					return <div key={`key-${i}`} className="messages_outer">
-							<span className="messages_span_one"><img className="thumbnail"  src={`/assets/${user.picture}`}/></span>
-							<span className="messages_span_two">
-								<div className="user name">{user.name}</div>
-								<div className="user last_message">{makeEllipsis(user.last_message)}</div>
-								<div className="user last_sent">{user.sent} days ago</div>
-							</span>
-							</div>
-				})	
+            this.props.users.map((user, i) => {
+				return (
+					<div key={`key-${i}`} className="messages_outer">
+						<span className="messages_span_one"><img className="thumbnail"  src={`/assets/${user.picture}`}/></span>
+						<span className="messages_span_two">
+							<div className="user name">{user.name}</div>
+							<div className="user last_message">{makeEllipsis(user.last_message)}</div>
+							<div className="user last_sent">{user.sent} days ago</div>
+						</span>
+					</div>
+				);
+			})
 		);
 	}	
 }

@@ -6,6 +6,7 @@
   top: 0px;
   left: 0px;
 }
+
 /*This is the on off animation states for the main users page */
 #wrapper{
   position: absolute;
@@ -13,6 +14,7 @@
   border-radius: 8px;
   width: 100%;
   height: 100%;
+  background-color: #ffffff;
   top: 0px;
   left: 0px;
   transition-duration: 200ms;
@@ -29,4 +31,12 @@
   left: 0px;
   transition-duration: 200ms;
   transform: translateX(90px) scaleY(0.95);
+}
+
+#user_scroll{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll; 
+  padding-right: 18px;
 }

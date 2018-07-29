@@ -1,4 +1,5 @@
 //sets default state
 export default {
-	menuOpen: false
+	menuOpen: false,
+	users: null
 };

@@ -47,4 +47,10 @@ export default [
 		last_message: 'Ah its just getting harder and harder these days',
 		sent: '8'
 	},
+	{	
+		name: 'Big Ducky',
+		picture: 'duck9.jpg',
+		last_message: 'What did you think of the Joesph Parker fight? that last round was wild',
+		sent: '8'
+	}
 ]

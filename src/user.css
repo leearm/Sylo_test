@@ -7,8 +7,8 @@
 	width: 100%;
 	height: auto;
 	max-height: 80px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	border-bottom: 1px solid #201f1f;
 }
 
@@ -24,8 +24,9 @@
 
 .thumbnail{
 	border-radius: 100%;
-	margin-left: 8px;
-	width: 74px;
+	display: block;
+	margin: auto;
+	width: 80px;
 }
 
 /*User messages*/
@@ -37,16 +38,38 @@ font-family: 'Open Sans', sans-serif;
 .user.name{
 font-weight: 700;
 font-size: 17px;
+padding-left: 5%;
 padding-bottom: 4px;
 }
 
 .user.last_message{
 font-size: 16px;
+padding-left: 5%;
 padding-bottom: 4px;
 }
 
 .user.last_sent{
 font-size: 13px;
 font-weight: 300;
+padding-left: 5%;
 padding-bottom: 2px;
 }
+
+
+/*I was wanting to use Media Queires here but they are based off the browser windows width not the #Root div. If this was the real App we could have used Media Queires to have more responsive display of message content*/
+/*Media queries assume the navigation is not viewed in mobile landscape mode and does not take into account laptop or larger sizing. A different UI design should be build for these users */
+
+/*Min width of #Root box is 320px*/
+@media (min-width: 520px){
+
+}
+
+@media (min-width: 521px) and (max-width: 720px) {
+
+}
+
+/*Max width of #Root box is 960px*/
+@media (min-width: 721px){
+
+}
+
